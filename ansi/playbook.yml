@@ -1,0 +1,3 @@
+- hosts: vagrant
+  tasks:
+    - local_action: "shell ansible all -m ping"
